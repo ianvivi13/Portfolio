@@ -1,0 +1,197 @@
+#content {
+    position: relative;
+    overflow: hidden;
+    height: 100vw;
+}
+
+#home-background {
+    position: absolute;
+    z-index: 0;
+    top: 8%;
+    width: 100%;
+    height: 44%;
+    object-fit: cover;
+    background: white;
+    opacity: 15%;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 70%, transparent 95%);
+}
+
+#circle {
+    position: absolute;
+    right: -25%;
+    top: -25%;
+    width: 70%;
+    height: 0;
+    padding-top: 70%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(255,255,255, 1) 30%, rgba(214,255,215,1) 100%);
+    z-index: 1;
+    filter: drop-shadow(0.1vw 0.2vw 0.2vw grey);
+}
+
+#headshot {
+    position: absolute;
+    right: 7.5%;
+    top: 7.5%;
+    border-radius: 50%;
+    height: 32.5%;
+    z-index: 3;
+    filter: drop-shadow(0.2vw 0.2vw 0.2vw grey);
+}
+
+#header-text {
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 10%;
+}
+
+#name {
+    font-size: 4vw;
+    opacity: 100%;
+    font-weight: bold;
+    animation: fadein 2s ease-in-out;
+}
+
+#occupation {
+    font-size: 2vw;
+    color: grey;
+    animation: fadeinsub 2s ease-in-out;
+}
+
+@keyframes fadein {
+    from { margin-top: -10%; opacity: 0; }
+    to { margin-top: 0; opacity: 1; }
+}
+
+@keyframes fadeinsub {
+    from { margin-left: 10%; opacity: 0; }
+    to { margin-left: 0; opacity: 1; }
+}
+
+#about-me-header {
+    position: absolute;
+    top: 49%;
+    left: 8%;
+    color: var(--important-text-color);
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+#about-me-intro-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50%;
+}
+
+#about-me-intro {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+#minecraft-mod {
+    position: absolute;
+    border-radius: 2%;
+    width: 22%;
+    margin-left: 17%;
+    margin-top: 3.2%;
+    border: 0.2vw solid var(--important-text-color);
+    filter: drop-shadow(0.2vw 0.2vw 0.2vw grey);
+}
+
+#mod-caption {
+    position: absolute;
+    display: block;
+    margin-left: 20.2%;
+    margin-top: 31.5%;
+    color: #999999;
+    font-size: 0.7vw;
+}
+
+.about-me {
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+#about-me-p1, #about-me-p2, #about-me-p4, #about-me-p5 {
+    width: 40%;
+}
+
+#about-me-p1, #about-me-p2 {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#about-me-p2, #about-me-p3, #about-me-p4, #about-me-p5 {
+    color: #777777;
+}
+
+#background, #experience, #personal-life {
+    color: var(--important-text-color);
+    font-size: 1.5vw;
+}
+
+#background {
+    margin-left: 50%;
+}
+
+#experience {
+    display: block;
+    margin-left: 10%;
+}
+
+#personal-life {
+    display: block;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#additional-content {
+    height: 40vw;
+}
+
+#about-me-p3 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#revmetrix-sim {
+    position: absolute;
+    margin-top: 3%;
+    right: 17%;
+    width: 22%;
+    border-radius: 2%;
+    border: 0.2vw solid var(--important-text-color);
+    filter: drop-shadow(0.2vw 0.2vw 0.2vw grey);
+}
+
+#revmetrix-caption {
+    position: absolute;
+    display: block;
+    right: 24%;
+    margin-top: 22.7%;
+    color: #999999;
+    font-size: 0.7vw;
+}
+
+#about-me-p4, #about-me-p5 {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.link {
+    color: var(--active-text-color);
+}
+
+.link:hover {
+    color: var(--important-text-color);
+}
+
+#bottom-toolbar {
+    height: 15vw;
+    width: 100%;
+    background-color: #2d2d2d;
+    margin-top: auto;
+}

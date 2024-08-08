@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --no-source-map --style compressed scss/styles.scss www/assets/css/styles.css",
+    "compile-html": "npx @11ty/eleventy",
+    "compile-script": "tsc",
+    "compile": "npm-run-all compile-script compile-html compile-sass",
+    "watch-script": "tsc -w",
+    "watch-sass": "node-sass --sourcemap=none --watch scss/styles.scss www/assets/css/styles.css --output-style compressed",
+    "watch-html": "npx @11ty/eleventy --serve",
+    "watch": "npm-run-all --parallel watch-html watch-script watch-sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianvivi13/Portfolio.git"
+  },
+  "author": "ianvivi13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianvivi13/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ianvivi13/Portfolio#readme",
+  "description": ""
+}
