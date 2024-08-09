@@ -1,3 +1,5 @@
+@import "variables";
+
 #content {
     position: relative;
     overflow: hidden;
@@ -73,7 +75,7 @@
     position: absolute;
     top: 49%;
     left: 8%;
-    color: var(--important-text-color);
+    color: $important-text-color;
     font-weight: bold;
     font-size: 2vw;
 }
@@ -97,7 +99,7 @@
     width: 22%;
     margin-left: 17%;
     margin-top: 3.2%;
-    border: 0.2vw solid var(--important-text-color);
+    border: 0.2vw solid $important-text-color;
     filter: drop-shadow(0.2vw 0.2vw 0.2vw grey);
 }
 
@@ -129,7 +131,7 @@
 }
 
 #background, #experience, #personal-life {
-    color: var(--important-text-color);
+    color: $important-text-color;
     font-size: 1.5vw;
 }
 
@@ -163,7 +165,7 @@
     right: 17%;
     width: 22%;
     border-radius: 2%;
-    border: 0.2vw solid var(--important-text-color);
+    border: 0.2vw solid $important-text-color;
     filter: drop-shadow(0.2vw 0.2vw 0.2vw grey);
 }
 
@@ -182,11 +184,11 @@
 }
 
 .link {
-    color: var(--active-text-color);
+    color: $active-text-color;
 }
 
 .link:hover {
-    color: var(--important-text-color);
+    color: $important-text-color;
 }
 
 #bottom-toolbar {

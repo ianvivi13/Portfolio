@@ -1,7 +1,4 @@
-:root {
-    --important-text-color: #6fe1a8;
-    --active-text-color: #04AA6D;
-}
+@import "variables";
 
 body {
     background-color: white;
@@ -39,10 +36,10 @@ body {
 }
 
 .nav-button:hover {
-    color: var(--important-text-color);
+    color: $important-text-color;
     transition: color 0.15s ease-in-out;
 }
 
 .active {
-    color: var(--active-text-color);
+    color: $active-text-color;
 }
