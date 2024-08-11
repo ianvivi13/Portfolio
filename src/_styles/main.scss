@@ -43,3 +43,10 @@ body {
 .active {
     color: $active-text-color;
 }
+
+#bottom-toolbar {
+    height: 15vw;
+    width: 100%;
+    background-color: #2d2d2d;
+    margin-top: auto;
+}
