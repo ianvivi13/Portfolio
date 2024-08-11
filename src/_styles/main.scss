@@ -16,7 +16,7 @@ body {
     list-style-type: none;
     margin: 2.5% 0 0;
     padding: 0;
-    width: 50%;
+    width: 45%;
     float: right;
     overflow: hidden;
     display: flex;
@@ -24,15 +24,19 @@ body {
     justify-content: flex-end;
 }
 
-.nav-button {
+.nav-button, .settings {
     color: black;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-family: "Lato", sans-serif;
     font-weight: 100;
     font-style: normal;
     padding: 2% 2.4%;
     text-decoration: none;
     z-index: 2;
+}
+
+.settings {
+    margin-top: 0.2%;
 }
 
 .nav-button:hover {

@@ -32,5 +32,9 @@ module.exports = async function(eleventyConfig) {
         <img id="logo" src="/_images/home/logo.png" alt="Ian Viveiros logo">
     <div id="nav-bar">
         ${links}
+        <i class="fa-solid fa-gear settings"></i>
     </div>`;
 };
+
+// Hamburger
+// <i class="fa-solid fa-bars"></i>
