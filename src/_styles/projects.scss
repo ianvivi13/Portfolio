@@ -69,7 +69,7 @@
   color: white;
   background-color: $important-text-color;
   padding: 2%;
-  font-size: 1vw;
+  font-size: 0.8vw;
   border-radius: 10%;
   margin: 2%;
 }
@@ -88,7 +88,7 @@
 .project-title {
   margin-top: 6%;
   font-size: 1vw;
-  text-decoration: underline;
+  color: $important-text-color;
 }
 
 .project-description {
@@ -124,7 +124,7 @@
   }
 
   .card-button, .github-button, .website-button {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
 }
 
