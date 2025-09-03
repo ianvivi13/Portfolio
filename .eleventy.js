@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("src/_images/**/*.jpg");
     eleventyConfig.addPassthroughCopy("src/_images/**/*.png");
+    eleventyConfig.addPassthroughCopy("src/_videos/**/*.mp4");
 
     return {
         dir: {

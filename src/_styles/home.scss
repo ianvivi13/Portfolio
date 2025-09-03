@@ -2,9 +2,6 @@
 
 #content {
     position: relative;
-    overflow: hidden;
-    height: auto;
-    margin-bottom: 10%;
 }
 
 #home-background {
@@ -193,16 +190,24 @@
         top: 6%;
         mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 45%, transparent 55%);
     }
+
     #circle {
         right: -25%;
         top: -20%;
         width: 70%;
     }
+
     #headshot {
         right: 10%;
         top: 5%;
         height: 16%;
     }
+
+    #header-text {
+        top: 14%;
+        left: 10%;
+    }
+
     #about-me-header {
         top: 29%;
     }
@@ -210,6 +215,7 @@
     #background, #experience, #personal-life {
         font-size: 2vw;
     }
+
     #about-me-p1, #about-me-p2, #about-me-p3, #about-me-p4, #about-me-p5 {
         font-size: 1.5vw;
     }
